@@ -6,6 +6,15 @@
 
 .header {
   margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 body {
@@ -14,6 +23,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding: 40;
 }
+/*Rememeber to load Google fonts and set coiny and sono fonts*/
 
 .fact-form {
   background-color: #44403c;
@@ -27,6 +37,7 @@ h1 {
   text-transform: uppercase;
   font-family: "Courier New", Courier, monospace;
   color: #fafaf9;
+  margin-top: 6px;
 }
 
 .fact {
@@ -42,6 +53,8 @@ h1 {
   font-size: 14px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #fafaf9;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 ul {

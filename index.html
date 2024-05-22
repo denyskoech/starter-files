@@ -19,7 +19,7 @@
           <img src="logo.png" height="68" width="68" alt="Today I know Logo" />
           <h1>Today I Know</h1>
         </div>
-        <button class="btn">Share a fact</button>
+        <button class="btn btn-large">Share a fact</button>
       </header>
 
       <form class="fact-form">
@@ -32,20 +32,30 @@
           <option value="Science">Science</option>
           <option value="Finance">Finance</option>
         </select>
-        <button class="btn">Post</button>
+        <button class="btn btn-large">Post</button>
       </form>
 
       <main class="main">
         <aside>
           <ul>
-            <li>
-              <button class="btn">All</button>
+            <li class="Category">
+              <button class="btn btn-all-categories">All</button>
             </li>
-            <li>
-              <button class="btn">Technology</button>
+            <li class="Category">
+              <button
+                class="btn btn-category"
+                style="background-color: #3b82f6"
+              >
+                Technology
+              </button>
             </li>
-            <li>
-              <button class="btn">Science</button>
+            <li class="Category">
+              <button
+                class="btn btn-category"
+                style="background-color: #16a34a"
+              >
+                Science
+              </button>
             </li>
           </ul>
         </aside>
@@ -65,9 +75,9 @@
                 #technology#</span
               >
               <div class="vote-button">
-                <button>👍 <strong>24</strong></button>
-                <button>🤯 <strong>9</strong></button>
-                <button>⛔️ <strong>4</strong></button>
+                <button>👍 24</button>
+                <button>🤯 9</button>
+                <button>⛔️ 4</button>
               </div>
             </li>
             <li class="fact">
@@ -86,9 +96,9 @@
                 #society#</span
               >
               <div class="vote-button">
-                <button>👍 <strong>11</strong></button>
-                <button>🤯 <strong>2</strong></button>
-                <button>⛔️ <strong>0</strong></button>
+                <button>👍 11</button>
+                <button>🤯 2</button>
+                <button>⛔️ 0</button>
               </div>
             </li>
           </ul>
